@@ -8,18 +8,18 @@
 .custom .bumpers{
     position: absolute;
     height: 100px;
-    width: 664px;
+    width: 490px;
     top: 10px;
-    left: px
+    left: 236px
 }
 
 .custom .bumper{
-    height: 53px;
-    width: 90px;
+    height: 52px;
+    width: 89px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
-	background-position-x: -62px;
+	background-position-x: -73px;
 }
 
 .custom .bumper.right{
@@ -27,7 +27,6 @@
     width: 174px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
-	background-position-x: -62px;
     position: absolute;
 }
 /*Z Button*/
