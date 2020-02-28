@@ -34,15 +34,18 @@
 /*Z Button*/
 .custom .triggers{
     position: absolute;
-    top: 179px;
-    right: 182px;
+    height: 314px;
+    width: 778px;
 }
 
 .custom .trigger.left{
+    top: 211;
+    left: 390;
     width: 90px;
     height: 53px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
+	background-position-y: -184px;
 }
 
 .custom .dpad{
