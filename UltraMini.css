@@ -126,14 +126,14 @@
 }
 /* C ← button */
 .custom .abxy .button.x{
-    top: 65px;
+    top: 45px;
     left: -2px;
     transform: rotate(-90deg)
 }
 /* C → button */
 .custom .abxy .button.y{
-    left: 91px;
-    top: 46px;
+    left: 90px;
+    top: 45px;
     transform: rotate(90deg);
 }
 
