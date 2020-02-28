@@ -113,13 +113,13 @@
     display: block;
     position: absolute;
 }
-
+/* C ↑ button */
 .custom .abxy .button.a{
-    left: 65px
+    left: 45px
 }
 
 .custom .abxy .button.b{
-    left: 44px;
+    left: 64px;
     top: 92px;
     transform: rotate(180deg);
 }
