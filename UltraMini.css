@@ -9,17 +9,16 @@
     position: absolute;
     height: 314px;
     width: 778px;
-    top: 10px;
-    left: 236px
 }
 
 .custom .bumper{
     height: 89px;
     width: 52px;
+    left: 236px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
-	background-position-x: -181px;
+	background-position-y: -181px;
 }
 
 .custom .bumper.right{
@@ -29,7 +28,7 @@
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
-	background-position-x: -73px;
+	background-position-y: -73px;
 }
 /*Z Button*/
 .custom .triggers{
