@@ -120,17 +120,17 @@
 }
 /* C ↓ button */
 .custom .abxy .button.b{
-    left: 64px;
+    left: 44px;
     top: 92px;
     transform: rotate(180deg);
 }
-
+/* C ← button */
 .custom .abxy .button.x{
     top: 65px;
     left: -2px;
     transform: rotate(-90deg)
 }
-
+/* C → button */
 .custom .abxy .button.y{
     left: 91px;
     top: 46px;
