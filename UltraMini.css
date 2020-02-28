@@ -45,6 +45,7 @@
     width: 52px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
+    position: absolute;
 	background-position-y: -184px;
 }
 
