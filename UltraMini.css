@@ -67,25 +67,18 @@
 }
 
 .custom .dpad .face.up{
-    left: 32px
 }
-
 
 .custom .dpad .face.down{
     transform: rotate(180deg);
-    left: 32px;
-    top: 65px
 }
 
 .custom .dpad .face.left{
     transform: rotate(-90deg);
-    top: 33px
 }
 
 .custom .dpad .face.right{
     transform: rotate(90deg);
-    top: 33px;
-    left: 64px;
 }
 
 /* We're using the node used for a controller's system button here */
