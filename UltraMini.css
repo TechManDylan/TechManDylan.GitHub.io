@@ -52,17 +52,16 @@
 .custom .dpad{
     width: 150px;
     height: 150px;
-    /*     background: #FF00008F; */
     position: absolute;
-    top: 281px;
-    left: 106px;
+    top: 94px;
+    left: 72px;
 }
 
 .custom .dpad .face{
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     height: 64px;
     width: 44px;
-    background-position-y: -164px;
+    background-position-y: -276px;
     display: block;
     position: absolute
 }
