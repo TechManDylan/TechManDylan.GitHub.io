@@ -29,7 +29,7 @@
 .custom .triggers{
     position: absolute;
 	top: 179px;
-    left: 182px;
+    right: 182px;
 }
 
 .custom .trigger.left{
