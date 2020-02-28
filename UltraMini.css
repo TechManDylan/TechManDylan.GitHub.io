@@ -19,15 +19,15 @@
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
-	background-position-x: -73px;
+	background-position-x: -181px;
 }
 
 .custom .bumper.right{
-    right: 0;
-    transform: rotateY(180deg);
+    right: 236px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
+	background-position-x: -73px;
 }
 /*Z Button*/
 .custom .triggers{
