@@ -7,8 +7,8 @@
 
 .custom .bumpers{
     position: absolute;
-    height: 100px;
-    width: 490px;
+    height: 314px;
+    width: 778px;
     top: 10px;
     left: 236px
 }
@@ -23,6 +23,8 @@
 }
 
 .custom .bumper.right{
+    height: 89px;
+    width: 52px;
     right: 236px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
