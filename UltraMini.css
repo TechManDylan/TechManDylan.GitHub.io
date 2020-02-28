@@ -50,14 +50,14 @@
 }
 
 .custom .dpad{
-    width: 150px;
-    height: 150px;
     position: absolute;
-    top: 94px;
-    left: 72px;
+    height: 314px;
+    width: 778px;
 }
 
 .custom .dpad .face{
+    top: 94px;
+    left: 72px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     height: 64px;
     width: 44px;
