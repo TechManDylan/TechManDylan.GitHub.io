@@ -88,15 +88,15 @@
     left: 64px;
 }
 
-/* We're using the node used for a controller's system button here */
+/* Start button */
 .custom .meta{
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     width: 55px;
     height: 55px;
-    background-position-y: -282px;
+    background-position-y: -393px;
     position: absolute;
-    left: 377px;
-    top: 344px
+    left: 361px;
+    top: 59px
 }
 
 .custom .abxy{
