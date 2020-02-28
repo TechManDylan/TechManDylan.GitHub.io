@@ -10,7 +10,7 @@
     height: 314px;
     width: 778px;
 }
-
+/*L Button*/
 .custom .bumper{
     top: 10px;
     left: 236px;
@@ -21,7 +21,7 @@
     position: absolute;
 	background-position-y: -92px;
 }
-
+/*R Button*/
 .custom .bumper.right{
 	top: 10px;
     left: 490px;
@@ -31,13 +31,13 @@
     display: block;
     position: absolute;
 }
-/*Z Button*/
+
 .custom .triggers{
     position: absolute;
     height: 314px;
     width: 778px;
 }
-
+/*Z Trigger*/
 .custom .trigger.left{
     top: 211px;
     left: 490px;
@@ -101,15 +101,15 @@
 
 .custom .abxy{
     position: absolute;
-    top: 245px;
-    left: 609px
+    top: 26px;
+    left: 592px
 }
 
 .custom .abxy .button{
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     width: 47px;
     height: 47px;
-    background-position-y: -231px;
+    background-position-y: -344px;
     display: block;
     position: absolute;
 }
