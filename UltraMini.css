@@ -14,6 +14,7 @@
 .custom .bumper{
     height: 89px;
     width: 52px;
+    top: 10;
     left: 236px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
@@ -25,6 +26,7 @@
     height: 89px;
     width: 52px;
     right: 236px;
+	top: 10px;
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     display: block;
     position: absolute;
