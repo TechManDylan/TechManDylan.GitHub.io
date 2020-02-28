@@ -138,21 +138,22 @@
 
 .custom .arrows{
     position: absolute;
-    top: 335px;
-    left: 529px
+    top: 116px;
+    left: 512px
 }
 
+/* A button */
 .custom .back, .custom .start{
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     width: 61px;
     height: 61px;
-    background-position-y: -341px;
+    background-position-y: -453px;
     display: block;
     position: relative;
 }
-
+/* B button */
 .custom .start{
-    background-position-y: -405px;
+    background-position-y: -517px;
     top: -5px;
     left: 56px
 }
