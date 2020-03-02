@@ -83,8 +83,8 @@
 /* We're using the node used for a controller's system button here */
 .custom .meta{
     background: url(https://techmandylan.github.io/SabButtons.png);
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     background-position-y: -282px;
     position: absolute;
     left: 377px;
