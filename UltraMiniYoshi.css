@@ -1,0 +1,187 @@
+/*Start N64 Styling*/
+.controller.custom {
+    background: url(Https://techmandylan.github.io/UltraMiniYoshi.png);
+    height: 314px;
+    width: 778px;
+}
+
+.custom .bumpers{
+    position: absolute;
+    height: 314px;
+    width: 778px;
+}
+/*L Button*/
+.custom .bumper{
+    top: 10px;
+    left: 236px;
+    height: 89px;
+    width: 52px;
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    display: block;
+    position: absolute;
+	background-position-y: -92px;
+}
+/*R Button*/
+.custom .bumper.right{
+	top: 10px;
+    left: 490px;
+    height: 89px;
+    width: 52px;
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    display: block;
+    position: absolute;
+}
+
+.custom .triggers{
+    position: absolute;
+    height: 314px;
+    width: 778px;
+}
+/*Z Trigger*/
+.custom .trigger.left{
+    top: 211px;
+    left: 490px;
+    height: 89px;
+    width: 52px;
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    display: block;
+    position: absolute;
+	background-position-y: -184px;
+}
+
+.custom .dpad{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 94px;
+    left: 83px;
+}
+
+.custom .dpad .face{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    height: 64px;
+    width: 44px;
+    background-position-y: -276px;
+    display: block;
+    position: absolute
+}
+
+.custom .dpad .face.up{
+    left: 32px
+}
+
+
+.custom .dpad .face.down{
+    transform: rotate(180deg);
+    left: 32px;
+    top: 65px
+}
+
+.custom .dpad .face.left{
+    transform: rotate(-90deg);
+    top: 33px
+}
+
+.custom .dpad .face.right{
+    transform: rotate(90deg);
+    top: 33px;
+    left: 64px;
+}
+
+/* Start button */
+.custom .meta{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    width: 61px;
+    height: 61px;
+    background-position-y: -393px;
+    position: absolute;
+    left: 360px;
+    top: 58px
+}
+
+.custom .abxy{
+    position: absolute;
+    top: 26px;
+    left: 593px
+}
+
+.custom .abxy .button{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    width: 47px;
+    height: 47px;
+    background-position-y: -344px;
+    display: block;
+    position: absolute;
+}
+/* C ↑ button */
+.custom .abxy .button.a{
+    left: 46px;
+    top: 1px;
+}
+/* C ↓ button */
+.custom .abxy .button.b{
+    left: 44px;
+    top: 92px;
+    transform: rotate(180deg);
+}
+/* C ← button */
+.custom .abxy .button.x{
+    top: 45px;
+    transform: rotate(-90deg)
+}
+/* C → button */
+.custom .abxy .button.y{
+    left: 90px;
+    top: 47px;
+    transform: rotate(90deg);
+}
+
+.custom .arrows{
+    position: absolute;
+    top: 116px;
+    left: 513px
+}
+
+/* A button */
+.custom .back, .custom .start{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    width: 61px;
+    height: 61px;
+    background-position-y: -453px;
+    display: block;
+    position: relative;
+}
+/* B button */
+.custom .start{
+    background-position-y: -517px;
+    top: -5px;
+    left: 56px
+}
+
+.custom .sticks{
+    position: absolute;
+    top: 179px;
+    left: 352px;
+}
+
+.custom .stick.left{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    width: 73px;
+    height: 73px;
+    display: block;
+    background-position-y: 73px
+}
+
+.custom .button,
+.custom .face,
+.custom .meta,
+.custom .bumper,
+.custom .trigger,
+.custom .arrows *{
+    opacity: 0
+}
+
+.custom .pressed{
+    opacity: 1
+}
+/*END N64 Styling*/
