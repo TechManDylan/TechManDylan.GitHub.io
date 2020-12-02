@@ -1,19 +1,21 @@
-/*Start GBA Styling*/
+/*Start N64 Styling*/
 .controller.custom {
     background: url(Https://techmandylan.github.io/GBA_Button_Holder.png);
-    height: 547px;
-    width: 967px;
+    height: 314px;
+    width: 778px;
 }
 
 .custom .bumpers{
     position: absolute;
-    height: 547px;
-    width: 967px;
+    height: 314px;
+    width: 778px;
 }
 /*L Button*/
 .custom .bumper{
     top: 10px;
     left: 236px;
+    height: 82px;
+    width: 185px;
     background: url(https://techmandylan.github.io/GBA_Left_Bumper.png);
     display: block;
     position: absolute;
@@ -23,6 +25,8 @@
 .custom .bumper.right{
 	top: 10px;
     left: 490px;
+    height: 82px;
+    width: 185px;
     background: url(https://techmandylan.github.io/GBA_Right_Bumper.png);
     display: block;
     position: absolute;
