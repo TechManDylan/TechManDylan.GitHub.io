@@ -163,14 +163,6 @@
     left: 352px;
 }
 
-.custom .stick.left{
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
-    width: 73px;
-    height: 73px;
-    display: block;
-    background-position-y: 73px
-}
-
 .custom .button,
 .custom .face,
 .custom .meta,
