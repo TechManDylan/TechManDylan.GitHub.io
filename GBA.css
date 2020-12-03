@@ -79,7 +79,7 @@
 
 /* Start button */
 .custom .meta{
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
     width: 61px;
     height: 61px;
     background-position-y: -393px;
@@ -103,14 +103,14 @@
 /* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 0px;
-    top: 0px;
+    left: 65px;
+    top: 90px;
 }
 /* B Button */
 .custom .abxy .button.x{
     background: url(https://techmandylan.github.io/GBA_B_Button.png);	
-    left: 44px;
-    top: 92px;
+    left: -15px;
+    top: 116px;
 }
 
 .custom .arrows{
@@ -129,14 +129,14 @@
 /* Start Button */
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
-    top: 235px;
-    left: -350px
+    top: 227px;
+    left: -340px
 }
 /* Select Button */
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
-    top: 300px;
-    left: -350px
+    top: 287px;
+    left: -340px
 }
 
 .custom .button,
