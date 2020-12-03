@@ -7,8 +7,8 @@
 
 .custom .bumpers{
     position: absolute;
-    height: 547px;
-    width: 967px;
+    height: 314px;
+    width: 778px;
 }
 /*L Button*/
 .custom .bumper{
@@ -123,17 +123,6 @@
     top: 92px;
     transform: rotate(180deg);
 }
-/* C ← button */
-.custom .abxy .button.x{
-    top: 45px;
-    transform: rotate(-90deg)
-}
-/* C → button */
-.custom .abxy .button.y{
-    left: 90px;
-    top: 47px;
-    transform: rotate(90deg);
-}
 
 .custom .arrows{
     position: absolute;
@@ -143,7 +132,6 @@
 
 /* A button */
 .custom .back, .custom .start{
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     width: 61px;
     height: 61px;
     background-position-y: -453px;
@@ -152,6 +140,12 @@
 }
 /* B button */
 .custom .start{
+    background: url(https://techmandylan.github.io/GBA_Start_Button.png);
+    background-position-y: -189px;
+    top: -5px;
+    left: 56px
+}
+.custom .back{
     background-position-y: -517px;
     top: -5px;
     left: 56px
@@ -161,6 +155,14 @@
     position: absolute;
     top: 179px;
     left: 352px;
+}
+
+.custom .stick.left{
+    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    width: 73px;
+    height: 73px;
+    display: block;
+    background-position-y: 73px
 }
 
 .custom .button,
