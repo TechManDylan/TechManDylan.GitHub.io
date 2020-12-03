@@ -105,9 +105,8 @@
 }
 
 .custom .abxy .button{
-    width: 47px;
-    height: 47px;
-    background-position-y: -344px;
+    width: 65px;
+    height: 65px;
     display: block;
     position: absolute;
 }
@@ -118,7 +117,7 @@
     top: 1px;
 }
 /* C ↓ button */
-.custom .abxy .button.b{
+.custom .abxy .button.x{
     background: url(https://techmandylan.github.io/GBA_B_Button.png);	
     left: 44px;
     top: 92px;
