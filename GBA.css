@@ -56,7 +56,8 @@
     background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
     height: 30px;
     width: 30px;
-    left: 32px
+    left: 37px;
+    top: 162px;
 }
 
 
@@ -65,14 +66,14 @@
     height: 30px;
     width: 30px;
     left: 32px;
-    top: 65px
+    top: 65px;
 }
 
 .custom .dpad .face.left{
     background: url(https://techmandylan.github.io/GBA_Left_Arrow.png);
     height: 30px;
     width: 30px;
-    top: 33px
+    top: 33px;
 }
 
 .custom .dpad .face.right{
@@ -91,13 +92,13 @@
     background-position-y: -393px;
     position: absolute;
     left: 360px;
-    top: 58px
+    top: 58px;
 }
 
 .custom .abxy{
     position: absolute;
     top: 110px;
-    left: 771px
+    left: 771px;
 }
 
 .custom .abxy .button{
