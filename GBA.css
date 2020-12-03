@@ -135,7 +135,7 @@
     width: 36px;
     height: 36px;
     display: block;
-    position: relative;
+    position: absolute;
 }
 /* B button */
 .custom .start{
