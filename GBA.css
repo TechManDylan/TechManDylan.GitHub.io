@@ -105,7 +105,6 @@
 }
 
 .custom .abxy .button{
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
     width: 47px;
     height: 47px;
     background-position-y: -344px;
@@ -114,11 +113,13 @@
 }
 /* C ↑ button */
 .custom .abxy .button.a{
+    background: url(https://techmandylan.github.io/GBA_A_Button.png);	
     left: 46px;
     top: 1px;
 }
 /* C ↓ button */
 .custom .abxy .button.b{
+    background: url(https://techmandylan.github.io/GBA_B_Button.png);	
     left: 44px;
     top: 92px;
     transform: rotate(180deg);
@@ -130,19 +131,20 @@
     left: 513px
 }
 
-/* A button */
+/* Defining Start and Select */
 .custom .back, .custom .start{
     width: 36px;
     height: 36px;
     display: block;
     position: absolute;
 }
-/* B button */
+/* Start Button */
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
     top: 220px;
     left: 690px
 }
+/* Select Button */
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
     top: 290px;
