@@ -56,8 +56,8 @@
     background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
     height: 30px;
     width: 30px;
-    left: 39px;
-    top: 0px;
+    left: 40px;
+    top: 5px;
 }
 
 
@@ -65,15 +65,15 @@
     background: url(https://techmandylan.github.io/GBA_Down_Arrow.png);
     height: 30px;
     width: 30px;
-    left: 42px;
-    top: 96px;
+    left: 37px;
+    top: 88px;
 }
 
 .custom .dpad .face.left{
     background: url(https://techmandylan.github.io/GBA_Left_Arrow.png);
     height: 30px;
     width: 30px;
-    top: 48px;
+    top: 47px;
     left: -1px;
 }
 
@@ -81,8 +81,8 @@
     background: url(https://techmandylan.github.io/GBA_Right_Arrow.png);
     height: 30px;
     width: 30px;
-    top: 40px;
-    left: 74px;
+    top: 47px;
+    left: 79px;
 }
 
 /* Start button */
