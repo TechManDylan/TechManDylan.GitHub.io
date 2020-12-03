@@ -132,9 +132,8 @@
 
 /* A button */
 .custom .back, .custom .start{
-    width: 61px;
-    height: 61px;
-    background-position-y: -453px;
+    width: 32px;
+    height: 31px;
     display: block;
     position: relative;
 }
