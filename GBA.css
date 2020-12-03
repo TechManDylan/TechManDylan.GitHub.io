@@ -132,23 +132,21 @@
 
 /* A button */
 .custom .back, .custom .start{
-    width: 34px;
-    height: 34px;
+    width: 36px;
+    height: 36px;
     display: block;
     position: relative;
 }
 /* B button */
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
-    background-position-y: -189px;
-    top: -5px;
-    left: 56px
+    top: 250px;
+    left: 90px
 }
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
-    background-position-y: -517px;
-    top: -5px;
-    left: 56px
+    top: 270px;
+    left: 90px
 }
 
 .custom .button,
