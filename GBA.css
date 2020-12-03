@@ -57,7 +57,7 @@
     height: 30px;
     width: 30px;
     left: 39px;
-    top: -10px;
+    top: 0px;
 }
 
 
@@ -81,8 +81,8 @@
     background: url(https://techmandylan.github.io/GBA_Right_Arrow.png);
     height: 30px;
     width: 30px;
-    top: 48px;
-    left: 79px;
+    top: 40px;
+    left: 74px;
 }
 
 /* Start button */
