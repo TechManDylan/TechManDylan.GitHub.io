@@ -12,8 +12,8 @@
 }
 /*L Button*/
 .custom .bumper{
-    top: 15px;
-    left: 29px;
+    top: 16px;
+    left: 27px;
     height: 82px;
     width: 185px;
     background: url(https://techmandylan.github.io/GBA_Left_Bumper.png);
@@ -22,8 +22,8 @@
 }
 /*R Button*/
 .custom .bumper.right{
-	top: 15px;
-    left: 752px;
+	top: 16px;
+    left: 755px;
     height: 82px;
     width: 185px;
     background: url(https://techmandylan.github.io/GBA_Right_Bumper.png);
@@ -141,13 +141,13 @@
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
     top: 235px;
-    left: -100px
+    left: -210px
 }
 /* Select Button */
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
     top: 300px;
-    left: -100px
+    left: -210px
 }
 
 .custom .button,
