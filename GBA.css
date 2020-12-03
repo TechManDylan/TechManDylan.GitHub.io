@@ -12,8 +12,8 @@
 }
 /*L Button*/
 .custom .bumper{
-    top: 0px;
-    left: 0px;
+    top: 25px;
+    left: 35px;
     height: 82px;
     width: 185px;
     background: url(https://techmandylan.github.io/GBA_Left_Bumper.png);
@@ -22,8 +22,8 @@
 }
 /*R Button*/
 .custom .bumper.right{
-	top: 0px;
-    left: 570px;
+	top: 25px;
+    left: 782px;
     height: 82px;
     width: 185px;
     background: url(https://techmandylan.github.io/GBA_Right_Bumper.png);
