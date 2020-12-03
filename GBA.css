@@ -129,14 +129,14 @@
 /* Start Button */
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
-    top: 227px;
-    left: -340px
+    top: 226px;
+    left: -336px
 }
 /* Select Button */
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
-    top: 287px;
-    left: -340px
+    top: 282px;
+    left: -336px
 }
 
 .custom .button,
