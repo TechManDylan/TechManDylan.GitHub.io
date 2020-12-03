@@ -103,14 +103,14 @@
 /* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 77px;
-    top: 78px;
+    left: 85px;
+    top: 70px;
 }
 /* B Button */
 .custom .abxy .button.x{
     background: url(https://techmandylan.github.io/GBA_B_Button.png);	
-    left: -3px;
-    top: 104px;
+    left: -1px;
+    top: 98px;
 }
 
 .custom .arrows{
