@@ -1,223 +1,162 @@
-/*BEGIN custom3 Controller Styling*/
+/*Start N64 Styling*/
 .controller.custom {
-    background: url(httcustom://techmandylan.github.io/GBA.png);
+    background: url(Https://techmandylan.github.io/GBA_Button_Holder.png);
     height: 547px;
     width: 967px;
-    /*    margin-left: -392px;
-        margin-top: -259px;*/
 }
 
-.custom .bumper {
+.custom .bumpers{
+    position: absolute;
+    height: 314px;
+    width: 778px;
+}
+/*L Button*/
+.custom .bumper{
+    top: 16px;
+    left: 27px;
     height: 82px;
     width: 185px;
-    background: url(httcustom://techmandylan.github.io/GBA_Left_Bumper.png);
-    opacity: 0;
-}
-
-.custom .bumpers {
+    background: url(https://techmandylan.github.io/GBA_Left_Bumper.png);
+    display: block;
     position: absolute;
-    height: 547px;
-    width: 967px;
 }
-
-.custom .bumper.pressed {
-    opacity: 1;
-}
-
-.custom .bumper.left {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    float: left;
-}
-
-.custom .bumper.right {
-    float: right;
-}
-
-.custom .quadrant {
+/*R Button*/
+.custom .bumper.right{
+	top: 16px;
+    left: 756px;
+    height: 82px;
+    width: 185px;
+    background: url(https://techmandylan.github.io/GBA_Right_Bumper.png);
+    display: block;
     position: absolute;
-    background: url(custom3-assets/player-n.png);
-    height: 17px;
-    width: 111px;
-    top: 140px;
-    left: 240px;
 }
 
-.custom .p0 {
-    background-position: 0 -6px;
-}
-
-.custom .p1 {
-    background-position: 0 -28px;
-}
-
-.custom .p2 {
-    background-position: 0 -49px;
-}
-
-.custom .p3 {
-    background-position: 0 -70px;
-}
-
-.custom .arrows {
+.custom .triggers{
     position: absolute;
-    width: 205px;
-    height: 19px;
-    top: 250px;
-    left: 291px;
+    height: 314px;
+    width: 778px;
 }
 
-.custom .back, .custom .start {
-    background: url(custom3-assets/menus.png);
-    width: 34px;
-    height: 19px;
+.custom .dpad{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 162px;
+    left: 76px;
 }
 
-.custom .back.pressed, .custom .start.pressed {
-    background-position-y: -21px;
-    margin-top: 2px;
+
+.custom .dpad .face{
+    background-position-y: -276px;
+    display: block;
+    position: absolute
 }
 
-.custom .back {
-    float: left;
-    width: 38px;
+.custom .dpad .face.up{
+    background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
+    height: 30px;
+    width: 30px;
+    left: 40px;
+    top: 5px;
 }
 
-.custom .start {
-    float: right;
+
+.custom .dpad .face.down{
+    background: url(https://techmandylan.github.io/GBA_Down_Arrow.png);
+    height: 30px;
+    width: 30px;
+    left: 40px;
+    top: 86px;
+}
+
+.custom .dpad .face.left{
+    background: url(https://techmandylan.github.io/GBA_Left_Arrow.png);
+    height: 30px;
+    width: 30px;
+    top: 47px;
+    left: -1px;
+}
+
+.custom .dpad .face.right{
+    background: url(https://techmandylan.github.io/GBA_Right_Arrow.png);
+    height: 30px;
+    width: 30px;
+    top: 47px;
+    left: 79px;
+}
+
+/* Start button */
+.custom .meta{
+    background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
+    width: 61px;
+    height: 61px;
+    background-position-y: -393px;
+    position: absolute;
+    left: 360px;
+    top: 58px;
+}
+
+.custom .abxy{
+    position: absolute;
+    top: 110px;
+    left: 771px;
+}
+
+.custom .abxy .button{
+    width: 65px;
+    height: 65px;
+    display: block;
+    position: absolute;
+}
+/* A Button */
+.custom .abxy .button.a{
+    background: url(https://techmandylan.github.io/GBA_A_Button.png);	
+    left: 85px;
+    top: 69px;
+}
+/* B Button */
+.custom .abxy .button.x{
+    background: url(https://techmandylan.github.io/GBA_B_Button.png);	
+    left: -1px;
+    top: 98px;
+}
+
+.custom .arrows{
+    position: absolute;
+    top: 116px;
+    left: 513px
+}
+
+/* Defining Start and Select */
+.custom .back, .custom .start{
     width: 36px;
-    background-position: 37px 0;
-}
-
-.custom .abxy {
-    position: absolute;
-    width: 204px;
-    height: 205px;
-    top: 156px;
-    left: 538px;
-}
-
-.custom .button {
-    position: absolute;
-    width: 62px;
-    height: 62px;
-    background: url(custom3-assets/face-buttons.png);
-}
-
-.custom .button.pressed {
-    background-position-y: -64px;
-    margin-top: 5px;
-}
-
-.custom .a {
-    background-position: 62px 0;
-    top: 142px;
-    left: 71px;
-}
-
-.custom .b {
-    background-position: 125px 0;
-    top: 71px;
-    right: 0px;
-}
-
-.custom .x {
-    background-position: 0 0;
-    top: 71px;
-}
-
-.custom .y {
-    background-position: -63px 0;
-    left: 71px;
-}
-
-.custom .sticks {
-    position: absolute;
-    width: 364px;
-    height: 105px;
-    top: 328px;
-    left: 210px;
-}
-
-.custom .stick {
-    position: absolute;
-    background: url(custom3-assets/thumbs.png);
-    height: 105px;
-    width: 105px;
-}
-
-.custom .stick.pressed.left {
-    background-position-x: -106px;
-}
-
-.custom .stick.pressed.right {
-    background-position-x: -211px;
-}
-
-.custom .stick.left {
-    top: 0;
-    left: 0;
-}
-
-.custom .stick.right {
-    top: calc(100% - 105px);
-    left: calc(100% - 105px);
-}
-
-.custom .dpad {
-    position: absolute;
-    width: 140px;
-    height: 132px;
-    top: 192px;
-    left: 74px;
-}
-
-.custom .face {
-    background: url(custom3-assets/dpad.png);
+    height: 36px;
+    display: block;
     position: absolute;
 }
-
-.custom .face.up, .custom .face.down {
-    width: 38px;
-    height: 52px;
+/* Start Button */
+.custom .start{
+    background: url(https://techmandylan.github.io/GBA_Start_Button.png);
+    top: 227px;
+    left: -336px
+}
+/* Select Button */
+.custom .back{
+    background: url(https://techmandylan.github.io/GBA_Select_Button.png);
+    top: 282px;
+    left: -336px
 }
 
-.custom .face.left, .custom .face.right {
-    width: 52px;
-    height: 38px;
+.custom .button,
+.custom .face,
+.custom .meta,
+.custom .bumper,
+.custom .trigger,
+.custom .arrows *{
+    opacity: 0
 }
 
-.custom .face.up {
-    left: 50px;
-    top: 0;
-    background-position: 92px 0px;
+.custom .pressed{
+    opacity: 1
 }
-
-.custom .face.down {
-    left: 50px;
-    top: 79px;
-    background-position: 131px 0;
-}
-
-.custom .face.left {
-    top: 47px;
-    left: 0;
-    background-position: 0px 0;
-}
-
-.custom .face.right {
-    top: 47px;
-    right: 0px;
-    background-position: 53px 0;
-}
-
-.custom .face.pressed {
-    margin-top: 5px;
-    background-position-y: 52px;
-}
-
-.custom.half {
-    margin-top: -279px;
-}
-
-/*END custom3 Controller Styling*/
+/*END N64 Styling*/
