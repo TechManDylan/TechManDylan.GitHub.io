@@ -65,8 +65,8 @@
     background: url(https://techmandylan.github.io/GBA_Down_Arrow.png);
     height: 30px;
     width: 30px;
-    left: 37px;
-    top: 88px;
+    left: 40px;
+    top: 86px;
 }
 
 .custom .dpad .face.left{
@@ -111,8 +111,8 @@
 /* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 84px;
-    top: 70px;
+    left: 85px;
+    top: 69px;
 }
 /* B Button */
 .custom .abxy .button.x{
