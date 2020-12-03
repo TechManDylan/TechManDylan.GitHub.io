@@ -36,17 +36,6 @@
     height: 314px;
     width: 778px;
 }
-/*Z Trigger*/
-.custom .trigger.left{
-    top: 211px;
-    left: 490px;
-    height: 89px;
-    width: 52px;
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
-    display: block;
-    position: absolute;
-	background-position-y: -184px;
-}
 
 .custom .dpad{
     width: 150px;
