@@ -47,7 +47,7 @@
 
 
 .custom .dpad .face{
-    background: url(https://techmandylan.github.io/UltraMiniButtons.png);
+    background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
     height: 64px;
     width: 44px;
     background-position-y: -276px;
@@ -103,7 +103,7 @@
 /* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 85px;
+    left: 83px;
     top: 70px;
 }
 /* B Button */
