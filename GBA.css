@@ -23,7 +23,7 @@
 /*R Button*/
 .custom .bumper.right{
 	top: 16px;
-    left: 755px;
+    left: 756px;
     height: 82px;
     width: 185px;
     background: url(https://techmandylan.github.io/GBA_Right_Bumper.png);
@@ -44,6 +44,7 @@
     top: 162px;
     left: 76px;
 }
+
 
 .custom .dpad .face{
     background: url(https://techmandylan.github.io/UltraMiniButtons.png);
@@ -89,8 +90,8 @@
 
 .custom .abxy{
     position: absolute;
-    top: 26px;
-    left: 593px
+    top: 110px;
+    left: 771px
 }
 
 .custom .abxy .button{
@@ -99,18 +100,17 @@
     display: block;
     position: absolute;
 }
-/* C ↑ button */
+/* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 46px;
-    top: 1px;
+    left: 0px;
+    top: 0px;
 }
-/* C ↓ button */
+/* B Button */
 .custom .abxy .button.x{
     background: url(https://techmandylan.github.io/GBA_B_Button.png);	
     left: 44px;
     top: 92px;
-    transform: rotate(180deg);
 }
 
 .custom .arrows{
@@ -130,13 +130,13 @@
 .custom .start{
     background: url(https://techmandylan.github.io/GBA_Start_Button.png);
     top: 235px;
-    left: -210px
+    left: -350px
 }
 /* Select Button */
 .custom .back{
     background: url(https://techmandylan.github.io/GBA_Select_Button.png);
     top: 300px;
-    left: -210px
+    left: -350px
 }
 
 .custom .button,
