@@ -54,31 +54,31 @@
 
 .custom .dpad .face.up{
     background: url(https://techmandylan.github.io/GBA_Up_Arrow.png);
-    height: 25px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     left: 32px
 }
 
 
 .custom .dpad .face.down{
     background: url(https://techmandylan.github.io/GBA_Down_Arrow.png);
-    height: 27px;
-    width: 22px;
+    height: 30px;
+    width: 30px;
     left: 32px;
     top: 65px
 }
 
 .custom .dpad .face.left{
     background: url(https://techmandylan.github.io/GBA_Left_Arrow.png);
-    height: 22px;
-    width: 27px;
+    height: 30px;
+    width: 30px;
     top: 33px
 }
 
 .custom .dpad .face.right{
     background: url(https://techmandylan.github.io/GBA_Right_Arrow.png);
-    height: 22px;
-    width: 27px;
+    height: 30px;
+    width: 30px;
     top: 33px;
     left: 64px;
 }
@@ -109,7 +109,7 @@
 /* A Button */
 .custom .abxy .button.a{
     background: url(https://techmandylan.github.io/GBA_A_Button.png);	
-    left: 83px;
+    left: 84px;
     top: 70px;
 }
 /* B Button */
