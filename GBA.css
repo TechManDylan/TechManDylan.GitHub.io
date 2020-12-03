@@ -132,8 +132,8 @@
 
 /* A button */
 .custom .back, .custom .start{
-    width: 32px;
-    height: 31px;
+    width: 34px;
+    height: 34px;
     display: block;
     position: relative;
 }
@@ -145,6 +145,7 @@
     left: 56px
 }
 .custom .back{
+    background: url(https://techmandylan.github.io/GBA_Select_Button.png);
     background-position-y: -517px;
     top: -5px;
     left: 56px
